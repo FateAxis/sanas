@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Models
+  m_EditorClassIdentifier: 
+  m_GroupName: Models
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c3dfb5c76ad685544a6eb40362a22ecc
+  m_SerializeEntries:
+  - m_GUID: 1c922adece5305f48bc6aed30aed0f7d
+    m_Address: Assets/AddressableAssets/Items/Skrina1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eadeda221292694982fbde56eb97e69
+    m_Address: Assets/AddressableAssets/Items/Skrina2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37cb752a97325e3469f61590515c1de4
+    m_Address: Assets/AddressableAssets/Items/Skrina3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1758233845946fa46b419ebf4e41e6de, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e9b63e85f3da3944db59658673ccd797, type: 2}
+    - {fileID: 11400000, guid: 3739fd70fb5cbba40a6bb19dffe3737d, type: 2}

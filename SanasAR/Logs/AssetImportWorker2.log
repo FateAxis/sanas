@@ -1,0 +1,991 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.2f1 (c93c5d3acf5b) revision 13188189'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'sk' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Unity Hub\2022.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+F:/zaloha final 14-1-23/SanasAR
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58208
+Successfully changed project path to: F:/zaloha final 14-1-23/SanasAR
+F:/zaloha final 14-1-23/SanasAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5604] Host "[IP] 192.168.1.208 [Port] 0 [Flags] 2 [Guid] 419215108 [EditorId] 419215108 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I6HNUO9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5604] Host "[IP] 192.168.1.208 [Port] 0 [Flags] 2 [Guid] 419215108 [EditorId] 419215108 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I6HNUO9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 22.96 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.2f1 (c93c5d3acf5b)
+[Subsystems] Discovering subsystems at path F:/Unity Hub/2022.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/zaloha final 14-1-23/SanasAR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'F:/Unity Hub/2022.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity Hub/2022.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity Hub/2022.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity Hub/2022.2.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Unity Hub/2022.2.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: F:/Unity Hub/2022.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006714 seconds.
+- Loaded All Assemblies, in  0.399 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2267 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (224ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+				TypeCache.Initialize (169ms)
+					TypeCache.ScanAssembly (167ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2376ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\zaloha final 14-1-23\SanasAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\zaloha final 14-1-23\SanasAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.229 seconds
+Refreshing native plugins compatible for Editor in 14.45 ms, found 11 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (263ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		LoadAllAssembliesAndSetupDomain (964ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (904ms)
+				TypeCache.Initialize (422ms)
+					TypeCache.ScanAssembly (416ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (531ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 12.42 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5599 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.2 MB). Loaded Objects now: 6069.
+Memory consumption went from 0.83 GB to 0.82 GB.
+Total: 6.670900 ms (FindLiveObjects: 0.766200 ms CreateObjectMapping: 0.384500 ms MarkObjects: 4.686600 ms  DeleteObjects: 0.831900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 866428.667811 seconds.
+  path: Assets/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(643827f30c1643f41824fc3498a838a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Loaders/AR Core Loader.asset using Guid(643827f30c1643f41824fc3498a838a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3be57f2e133ef8e2fd893bcdc343dbc2') in 0.159331 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Wooden floor/Wooden floor 07/Wooden floor normal.tga
+  artifactKey: Guid(e773a861543c2b44b994344f049590a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Wooden floor/Wooden floor 07/Wooden floor normal.tga using Guid(e773a861543c2b44b994344f049590a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27cc38a90dc62f524969b705c4323903') in 0.082713 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(825560f7749ba6e4faa3ac1c550cf055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(825560f7749ba6e4faa3ac1c550cf055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b0abdb740c431183d4f2ee6ac749723') in 0.023352 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Models_BundledAssetGroupSchema.asset
+  artifactKey: Guid(e9b63e85f3da3944db59658673ccd797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Models_BundledAssetGroupSchema.asset using Guid(e9b63e85f3da3944db59658673ccd797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee5d78e32efa64924892a0dfa6d651ca') in 0.024886 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset
+  artifactKey: Guid(bb8600c7067eb1f4fa27504a02d8df9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset using Guid(bb8600c7067eb1f4fa27504a02d8df9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00ad5b02fbdf8e30fc063b93e9d644bb') in 0.015730 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset
+  artifactKey: Guid(9c9d51985d0830140ba6e0856546aca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset using Guid(9c9d51985d0830140ba6e0856546aca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b9880090bda2d3a0cb81b11de37a39b') in 0.014542 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Item.cs
+  artifactKey: Guid(bbf01643dae01fa43bcbacb9ccbacc94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Item.cs using Guid(bbf01643dae01fa43bcbacb9ccbacc94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd1ba27e92636e37550529178ba8d98c') in 0.018000 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sprite na skrine/skrina2.png
+  artifactKey: Guid(cee8cf1b1c0d4db43a611faacd20cfbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/sprite na skrine/skrina2.png using Guid(cee8cf1b1c0d4db43a611faacd20cfbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d86bb73abbf4814c67422e8c8005cff') in 0.053141 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Outline.mat
+  artifactKey: Guid(33e23b0ad1cc655419b8e13547a4e15c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Outline.mat using Guid(33e23b0ad1cc655419b8e13547a4e15c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ba9283421685e94dbca9bac75c0f5a2') in 0.047494 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wooden floor/Wooden floor 02/Wooden floor diffuse.tga
+  artifactKey: Guid(c10d183773495b0449ef26024d83f3d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Wooden floor/Wooden floor 02/Wooden floor diffuse.tga using Guid(c10d183773495b0449ef26024d83f3d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f10e8028986831ee32acda11a7cd6fc') in 0.038444 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/readme.txt
+  artifactKey: Guid(fccfc62abf2eb0a4db614853430894fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/readme.txt using Guid(fccfc62abf2eb0a4db614853430894fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '324459ab8db61f0764d51a93d92782e9') in 0.023004 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset
+  artifactKey: Guid(67b90adc8f4b3bb42b774c5d37e057f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset using Guid(67b90adc8f4b3bb42b774c5d37e057f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5613d8f3cdc1f457938382230756ee4f') in 0.012409 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.XML
+  artifactKey: Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.XML using Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54cfad489072d0976951ea30713104b3') in 0.025434 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/XR/Loaders/Open XR Loader.asset
+  artifactKey: Guid(005364e22c1ebb148a97235299fffe87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/Loaders/Open XR Loader.asset using Guid(005364e22c1ebb148a97235299fffe87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a3312980c0eb155de9d72d035eabc5f') in 0.016883 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+  artifactKey: Guid(e944529dcaee98f4e9498d80e541d93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(e944529dcaee98f4e9498d80e541d93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f508a3c75594807f65ed2f8e56033f9') in 0.013796 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Models_ContentUpdateGroupSchema.asset
+  artifactKey: Guid(3739fd70fb5cbba40a6bb19dffe3737d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Models_ContentUpdateGroupSchema.asset using Guid(3739fd70fb5cbba40a6bb19dffe3737d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26c0862e5f2fb7b98bf296d77f7c0cf8') in 0.014415 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wooden floor/Wooden floor 10/Wooden floor normal.tga
+  artifactKey: Guid(42c62ba450b3a314da495fe7dbc01b99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Wooden floor/Wooden floor 10/Wooden floor normal.tga using Guid(42c62ba450b3a314da495fe7dbc01b99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fd08a74036b6394cb84656f8be091d2') in 0.031505 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset
+  artifactKey: Guid(e183f436ba3f6d04e8a662ca44440234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset using Guid(e183f436ba3f6d04e8a662ca44440234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '189acac9b771d87a284ce7b658d91285') in 0.016346 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+  artifactKey: Guid(b766d08851589514b97afb23c6f30a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs using Guid(b766d08851589514b97afb23c6f30a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a3615e41ef393c74c9944cf51f85147') in 0.012579 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Destroy.cs
+  artifactKey: Guid(2b4cb3433e0a3ce41beb882382fc8955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Destroy.cs using Guid(2b4cb3433e0a3ce41beb882382fc8955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3f2b12e2cbd9aaa94f9150a7e16ac0e') in 0.011464 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/HR_34-90.3ds
+  artifactKey: Guid(8b41d71391beeac4180667be899033cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/HR_34-90.3ds using Guid(8b41d71391beeac4180667be899033cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e229d4a1fafcd42d7820ed43a05f176') in 0.059535 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Barrel_A_Open.mat
+  artifactKey: Guid(3c1f8a7acab79e942a22f099f453ebc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Barrel_A_Open.mat using Guid(3c1f8a7acab79e942a22f099f453ebc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81ffdfe8515d9cee2589b8189647717a') in 0.019083 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/Editor/SampleSettingsEditor.cs
+  artifactKey: Guid(81f90f56b259f4aba826980c947f4140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/Editor/SampleSettingsEditor.cs using Guid(81f90f56b259f4aba826980c947f4140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e72b9a1b37e77cd8cc81a1acd55f746a') in 0.013420 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf9b88957ec942d1b7c2e41fc51ccbe3') in 0.035321 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Barrel_A_Lid.mat
+  artifactKey: Guid(f9b5f59783a861c4b8033cc82df45195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Barrel_A_Lid.mat using Guid(f9b5f59783a861c4b8033cc82df45195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6648a88b6418ca61b37d1237746eb687') in 0.014345 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Candle_Holder_B_Antlers.mat
+  artifactKey: Guid(228d81166063ccd4ba79973127a1ea05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Candle_Holder_B_Antlers.mat using Guid(228d81166063ccd4ba79973127a1ea05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '649245e1dad43a523a3fe8442c8358f0') in 0.016669 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.4/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.4/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c63fb15d65292a2dbfd12290e2c061fc') in 0.092372 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset
+  artifactKey: Guid(a57676c7c974eab4d842b8726e96dd23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset using Guid(a57676c7c974eab4d842b8726e96dd23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8beabe5753e680225bb802f5b2bfdd3') in 0.018527 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AddressableAssetsData/ProfileDataSourceSettings.asset
+  artifactKey: Guid(0e5433ed3db48004bbef9acb6f4d6772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/ProfileDataSourceSettings.asset using Guid(0e5433ed3db48004bbef9acb6f4d6772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '397e81d9a6026a92eec159d51c75ee73') in 0.015112 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wooden floor/Wooden floor 07/Wooden floor diffuse.tga
+  artifactKey: Guid(d92bcd9184715b0458297b2e72b7fee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Wooden floor/Wooden floor 07/Wooden floor diffuse.tga using Guid(d92bcd9184715b0458297b2e72b7fee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6c04183ca9e7f7c9579ecddc5596dca') in 0.033038 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.4/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(9f5a24a380916d14db9775daab4fe333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.4/XR Device Simulator/XR Device Simulator.prefab using Guid(9f5a24a380916d14db9775daab4fe333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '831ca5b1baf442d2a0410990c17bbdaa') in 0.035782 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Candle_Holder_B_MiddleCandle.mat
+  artifactKey: Guid(9a7c4da22ca1bb54693ff950f1e4fba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Candle_Holder_B_MiddleCandle.mat using Guid(9a7c4da22ca1bb54693ff950f1e4fba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18708301a9fae422022553198ec251b6') in 0.013615 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DataHandler.cs
+  artifactKey: Guid(fd5ed1b1d7920924c85493dcf288bf5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DataHandler.cs using Guid(fd5ed1b1d7920924c85493dcf288bf5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8e0697de1e6b207cb20db434f8882e3') in 0.010975 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wooden floor/Wooden floor 03/Wooden floor 03.mat
+  artifactKey: Guid(7e181fd161a9d4c41a7d09c87806d01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Wooden floor/Wooden floor 03/Wooden floor 03.mat using Guid(7e181fd161a9d4c41a7d09c87806d01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcd36d9c20452d93ef65353750edc55f') in 0.024225 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wooden floor/Wooden floor 09/Wooden floor diffuse.tga
+  artifactKey: Guid(74a23c6ab1998924a998bd68d7ae1371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Wooden floor/Wooden floor 09/Wooden floor diffuse.tga using Guid(74a23c6ab1998924a998bd68d7ae1371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5eb4151a17cd25778bdb3bce5a05286d') in 0.028552 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprite na skrine/skrina1.png
+  artifactKey: Guid(0f0968d8b348f624cb36c248302f2ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/sprite na skrine/skrina1.png using Guid(0f0968d8b348f624cb36c248302f2ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e778c238d4b2612bafb331cc22d9324b') in 0.030431 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset
+  artifactKey: Guid(92a8d506c9bfbd444854ad60f6bc34c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset using Guid(92a8d506c9bfbd444854ad60f6bc34c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51ffdc2f24ebb91f8ed391b7d478ac8e') in 0.011851 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset
+  artifactKey: Guid(2d6331d0b78000b4aac003b053f07535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset using Guid(2d6331d0b78000b4aac003b053f07535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) ScriptableSingleton UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager already exists. This can happen if there are two copies of the asset or if you query the singleton in a constructor.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogError (string,UnityEngine.Object) (at ./Library/PackageCache/com.unity.xr.core-utils@2.1.0/Runtime/XRLoggingUtils.cs:49)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager>:.ctor () (at ./Library/PackageCache/com.unity.xr.core-utils@2.1.0/Runtime/ScriptableSettingsBase.cs:172)
+Unity.XR.CoreUtils.Editor.EditorScriptableSettings`1<UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager>:.ctor ()
+UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager:.ctor () (at ./Library/PackageCache/com.unity.xr.arfoundation@5.0.3/Editor/Simulation/SimulationEnvironmentAssetsManager.cs:32)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.xr.core-utils@2.1.0/Runtime/XRLoggingUtils.cs Line: 49)
+
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53e409c10e8239ed64056d2082206880') in 0.015594 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Candle_Holder_A.mat
+  artifactKey: Guid(ed01373d445533845adea127424ae5eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Candle_Holder_A.mat using Guid(ed01373d445533845adea127424ae5eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae62639f5f530e8de924e4901b392f7e') in 0.012752 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/Unity.XR.Management.Samples.asmdef
+  artifactKey: Guid(4b8d623d49974443c835ab669d1771ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/Unity.XR.Management.Samples.asmdef using Guid(4b8d623d49974443c835ab669d1771ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b31aae149646b3db57f92f06cc7a11d') in 0.017870 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/H_23-30.3ds
+  artifactKey: Guid(03e61864458396c48a7fe4b5b0d70613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/H_23-30.3ds using Guid(03e61864458396c48a7fe4b5b0d70613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac38668c642327b7efaa282b6be23b09') in 0.022811 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefab/HR_34-90.prefab
+  artifactKey: Guid(10d7a534c3206f7409bac35a72b5d0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/HR_34-90.prefab using Guid(10d7a534c3206f7409bac35a72b5d0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37e78d4dc0ae95783aa1bad729cb1f8c') in 0.058796 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/SampleConstants.cs
+  artifactKey: Guid(9fcb2c0388adf4dae9b9d876af26062c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/SampleConstants.cs using Guid(9fcb2c0388adf4dae9b9d876af26062c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66001899d17bfe06aa93b23987f60af8') in 0.010556 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Bench_A.mat
+  artifactKey: Guid(2198d9b4ada2f5f4d92ebd4f4996f46b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Bench_A.mat using Guid(2198d9b4ada2f5f4d92ebd4f4996f46b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42fb63bc5bcb486631744aa245ec0cf9') in 0.013586 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6327cf99feb7948abe6ff34085be3fd8') in 0.029909 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(c4a23cb677240c24793d800647df8327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(c4a23cb677240c24793d800647df8327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bb7d2c590b6b85c6d01ed8877c7e2cb') in 0.016395 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/SampleSettings.cs
+  artifactKey: Guid(c76bebe14424446cca62c6e29db5054f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/XR Plugin Management/4.2.0/Example XR Management implementation/SampleSettings.cs using Guid(c76bebe14424446cca62c6e29db5054f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6966670e6b6ec20b71065c487eefb25b') in 0.010381 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Crate_Large_A_Lid.mat
+  artifactKey: Guid(74c22098110beb7439bb10102b6397e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Crate_Large_A_Lid.mat using Guid(74c22098110beb7439bb10102b6397e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71315b07b421c37ea14ea592f5e47476') in 0.013623 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+  artifactKey: Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs using Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b278d51449c298f24cb0159d0d618016') in 0.011098 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+  artifactKey: Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll using Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5eae1bf32f0805fedd313445687ce9f6') in 0.019458 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Crate_Large_A_Open.mat
+  artifactKey: Guid(ffa233ab521c11748a7ccb7c033d79c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Crate_Large_A_Open.mat using Guid(ffa233ab521c11748a7ccb7c033d79c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33e8cab1bee034b9e5cdc10f4184f7c4') in 0.012339 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.251829 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Fastener.mat
+  artifactKey: Guid(b11f1de3c98ef68499b299b22b3bd97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Fastener.mat using Guid(b11f1de3c98ef68499b299b22b3bd97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a3d65135add9828aca2319f590c4e18') in 0.013748 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Antler_Mat_Normal.png
+  artifactKey: Guid(d0878f7e76190ca4aae53817c9c68ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Antler_Mat_Normal.png using Guid(d0878f7e76190ca4aae53817c9c68ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '677406c5a3e221e973ea0dd4d6842c4d') in 0.127419 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Spike_Mat_Normal.png
+  artifactKey: Guid(ffcd3931ed410b94e9fb6ddd5b340e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Spike_Mat_Normal.png using Guid(ffcd3931ed410b94e9fb6ddd5b340e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a229f2ea6a8caaf4de1e36a0faa6a3') in 0.141352 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Shelf_D.mat
+  artifactKey: Guid(888950bd001cd9d4b988386f1ca710a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Shelf_D.mat using Guid(888950bd001cd9d4b988386f1ca710a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ff0242645d358b4a4f351315b0e1d0e') in 0.013432 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bench_A/Bench_A_Mat_BaseMap.png
+  artifactKey: Guid(609a100d3d7202b468af801f110bdfa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bench_A/Bench_A_Mat_BaseMap.png using Guid(609a100d3d7202b468af801f110bdfa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd838e05a3e834933540f7b0074658a0') in 0.135600 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bucket_A/Bucket_A_Bucket_A_Binding_Mat_BaseMap.png
+  artifactKey: Guid(cb96ac68b62f626448fdabae5338f4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bucket_A/Bucket_A_Bucket_A_Binding_Mat_BaseMap.png using Guid(cb96ac68b62f626448fdabae5338f4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0b0e3957e24ef8f5fe4506a1a9c6535') in 0.139583 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Weapon_Rack_A/Weapon_Rack_A_Mat_MaskMap.png
+  artifactKey: Guid(a4f158d21d549e148bc76ea5dede50cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Weapon_Rack_A/Weapon_Rack_A_Mat_MaskMap.png using Guid(a4f158d21d549e148bc76ea5dede50cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caa3467a1ae29bb3b16c0cd086160171') in 0.152031 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Chair_A/Chair_A_lambert1_BaseMap.png
+  artifactKey: Guid(abd640c1d89286f41bb7e03cba42edbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Chair_A/Chair_A_lambert1_BaseMap.png using Guid(abd640c1d89286f41bb7e03cba42edbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02d62a714407d2a91644c349fadb6b1a') in 0.148809 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Barrel_A_Lid/Barrel_A_Lid_Planks_Mat_MaskMap.png
+  artifactKey: Guid(71b16fe0197fb9f49a616e007e0838a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Barrel_A_Lid/Barrel_A_Lid_Planks_Mat_MaskMap.png using Guid(71b16fe0197fb9f49a616e007e0838a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73634e84e1626253e0819db36becff26') in 0.126120 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_A_Mat_Normal.png
+  artifactKey: Guid(030e90157b112b04ab0c0dddaef66215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_A_Mat_Normal.png using Guid(030e90157b112b04ab0c0dddaef66215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea16cf943e5dcf63bad18610f2ad66f2') in 0.163572 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_B_Bindings_Mat_Normal.png
+  artifactKey: Guid(15451720f6a01d04c94042385ec73c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_B_Bindings_Mat_Normal.png using Guid(15451720f6a01d04c94042385ec73c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f04e1d7b02af73ddd259b4383b970031') in 0.150531 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Barrel_A_Closed/Planks_Mat_BaseMap.png
+  artifactKey: Guid(3effb0c336d7ece4888dff83ed6bb2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Barrel_A_Closed/Planks_Mat_BaseMap.png using Guid(3effb0c336d7ece4888dff83ed6bb2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db0f2f11bc369f2d34679af9fc582745') in 0.168134 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Shelf_C/Book_Shelf_C_Plank_Mat_BaseMap.png
+  artifactKey: Guid(0e5ca1068610d3b43a08fb455460cbf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Shelf_C/Book_Shelf_C_Plank_Mat_BaseMap.png using Guid(0e5ca1068610d3b43a08fb455460cbf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '895f96408ec06494aa3d2a52676a0a8b') in 0.127401 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bucket_A/Bucket_A_Bucket_A_Mat_Normal.png
+  artifactKey: Guid(d5f9d8117887ba8418e90fe3011d8a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bucket_A/Bucket_A_Bucket_A_Mat_Normal.png using Guid(d5f9d8117887ba8418e90fe3011d8a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '805f5705dc7109705ea76478e524e7f3') in 0.156008 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_2_B_Mat_Normal.png
+  artifactKey: Guid(a09dfb205ecd606428c66c626e5ac298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_2_B_Mat_Normal.png using Guid(a09dfb205ecd606428c66c626e5ac298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a97ae685692f5605b3ee351f4d244b8') in 0.162074 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_A_Mat_BaseMap.png
+  artifactKey: Guid(553dd6535dd1921448234a41fc0f8ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_A_Mat_BaseMap.png using Guid(553dd6535dd1921448234a41fc0f8ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ac69f8f130eedcad69c982ffb7cb3ea') in 0.118386 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Chair_A/Chair_A_lambert1_Normal.png
+  artifactKey: Guid(93d5266298e5f1d4f81d751af83dc4d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Chair_A/Chair_A_lambert1_Normal.png using Guid(93d5266298e5f1d4f81d751af83dc4d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '214bde0823805968ee7ca63639b2862c') in 0.182750 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Table_B/Table_B_Table_B_Mat_Normal.png
+  artifactKey: Guid(e5f1f201f89d57f4f81fa349ca30be25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Table_B/Table_B_Table_B_Mat_Normal.png using Guid(e5f1f201f89d57f4f81fa349ca30be25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d79f84a83f8b2970c634b1f02280f76') in 0.180874 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003826 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Barrel_A_Open/Planks_Mat_BaseMap.png
+  artifactKey: Guid(426a1905810a48b4c83348b9df40d40e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Barrel_A_Open/Planks_Mat_BaseMap.png using Guid(426a1905810a48b4c83348b9df40d40e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81abeec12483b259f08e413c79502c9d') in 0.141251 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bucket_A/Bucket_A_Bucket_A_Mat_MaskMap.png
+  artifactKey: Guid(f85faf6462fd8724c9c6572e2cc360c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Bucket_A/Bucket_A_Bucket_A_Mat_MaskMap.png using Guid(f85faf6462fd8724c9c6572e2cc360c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8bff631553f39b23a6d840441b2fff2') in 0.126874 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Shelf_C/Book_Shelf_C_Plank_Mat_Normal.png
+  artifactKey: Guid(15841c42a4f52b74c9264e1d91f82641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Shelf_C/Book_Shelf_C_Plank_Mat_Normal.png using Guid(15841c42a4f52b74c9264e1d91f82641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61c15e5ae89999040dc6b44355b2d6b7') in 0.170852 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019656 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Shelf_D/Book_Shelf_D_Plank_Mat_BaseMap.png
+  artifactKey: Guid(d343ae13690827c40bf88d9a99651d9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Shelf_D/Book_Shelf_D_Plank_Mat_BaseMap.png using Guid(d343ae13690827c40bf88d9a99651d9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1008c085cdfe6301a332674a5c6d6237') in 0.126427 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Weapon_Rack_A.mat
+  artifactKey: Guid(980da7328fe16e9478e3d1a1632e4f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Weapon_Rack_A.mat using Guid(980da7328fe16e9478e3d1a1632e4f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b266afdc4aa470d19c5c5f83898c2bc1') in 0.021837 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Antler/Antler_Antler_Mat_BaseMap.png
+  artifactKey: Guid(2cf224728e93e9141843a5e0bedcec91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Antler/Antler_Antler_Mat_BaseMap.png using Guid(2cf224728e93e9141843a5e0bedcec91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f327b648ea753be95b694be14928bd6') in 0.147857 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Large_A_Lid/Crate_Large_A_Lid_Normal.png
+  artifactKey: Guid(f05ccc1564675244ab1c09008f04d51d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Large_A_Lid/Crate_Large_A_Lid_Normal.png using Guid(f05ccc1564675244ab1c09008f04d51d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '822ca1098790833bc3254239675a061c') in 0.123877 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008921 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Settings/ExampleSceneSkyandFogSettings.asset
+  artifactKey: Guid(7ad8f278f2b07ee4ebbee372e50662f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Settings/ExampleSceneSkyandFogSettings.asset using Guid(7ad8f278f2b07ee4ebbee372e50662f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '937e0c2ab37b86db0279064ed5fa0b52') in 0.039787 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Chair_A/Chair_A_lambert1_MaskMap.png
+  artifactKey: Guid(0724a92796d6d76428fd907f9d7aa9d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Chair_A/Chair_A_lambert1_MaskMap.png using Guid(0724a92796d6d76428fd907f9d7aa9d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5b6d97344c888d6ab77dad4860a74f1') in 0.156314 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_1_B_Mat_Normal.png
+  artifactKey: Guid(62ed92dce1ed6654f9d200b5bd90f0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_1_B_Mat_Normal.png using Guid(62ed92dce1ed6654f9d200b5bd90f0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '614b5eeca1672fd0cad8f633779526dc') in 0.141795 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Spike_Mat_BaseMap.png
+  artifactKey: Guid(ddeb41c9016e0244286f4a94d9214313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Spike_Mat_BaseMap.png using Guid(ddeb41c9016e0244286f4a94d9214313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '663b82c50c4b3003753d72f66d1c267c') in 0.151733 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Large_A_Open/Crate_Large_A_Open_BaseMap.png
+  artifactKey: Guid(fca9ef8be53280245a72e93781ea0751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Large_A_Open/Crate_Large_A_Open_BaseMap.png using Guid(fca9ef8be53280245a72e93781ea0751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fcf5317a5a15166d13a749420d6721a') in 0.173285 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_A_Mat_MaskMap.png
+  artifactKey: Guid(d338ea93abaf73741afa84e42628fea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Candle_Holder_Floor_B/Candle_Holder_Floor_B_Candle_Holder_Floor_A_Mat_MaskMap.png using Guid(d338ea93abaf73741afa84e42628fea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b77373bce9ee5acd2481c809970ff939') in 0.245263 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Large_A_Lid/Crate_Large_A_Lid_BaseMap.png
+  artifactKey: Guid(e3f73a4d61237564e91bc413f4c772ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Large_A_Lid/Crate_Large_A_Lid_BaseMap.png using Guid(e3f73a4d61237564e91bc413f4c772ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0ca38b5189e83d5e78e5931bf719207') in 0.152277 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Table_B.mat
+  artifactKey: Guid(620612b986b01164da3c117598673338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Table_B.mat using Guid(620612b986b01164da3c117598673338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1db263288b2288a3278725f67a79f8fb') in 0.028047 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004063 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Antler/Antler_Antler_Mat_MaskMap.png
+  artifactKey: Guid(ed65d82ddfe9fe0429ded81f948b2ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Antler/Antler_Antler_Mat_MaskMap.png using Guid(ed65d82ddfe9fe0429ded81f948b2ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35b8fc3e05e0d3ec5d2ef41ded12e0c2') in 0.070614 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Small_A/Crate_Small_A_Plank_Mat_MaskMap.png
+  artifactKey: Guid(92fa451493f7d5b459d25c897002b33e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Crate_Small_A/Crate_Small_A_Plank_Mat_MaskMap.png using Guid(92fa451493f7d5b459d25c897002b33e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e267379596de50d720309013060c7d0') in 0.115021 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Antler/Antler_Antler_Mat_Normal.png
+  artifactKey: Guid(34c27448a830adc488f4070153cf76ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Heathen Engineering/Assets/Breakable Things/Wood Props/Materials/HDRP/Textures/Antler/Antler_Antler_Mat_Normal.png using Guid(34c27448a830adc488f4070153cf76ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88ec90b0adedb514fb9989894e77ee80') in 0.114433 seconds 
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

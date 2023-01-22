@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf01643dae01fa43bcbacb9ccbacc94, type: 3}
+  m_Name: Skrina1
+  m_EditorClassIdentifier: 
+  cena: 100
+  itemPrefab: {fileID: 6206541873775205782, guid: a4ec6a2cb90665e4fb0f77f519501e05, type: 3}
+  itemImage: {fileID: 21300000, guid: 0f0968d8b348f624cb36c248302f2ec3, type: 3}

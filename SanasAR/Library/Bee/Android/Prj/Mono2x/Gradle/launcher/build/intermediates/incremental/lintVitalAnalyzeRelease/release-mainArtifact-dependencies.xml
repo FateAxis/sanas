@@ -1,0 +1,24 @@
+<dependencies>
+  <compile
+      roots="F:\zaloha final 14-1-23\SanasAR\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="F:\zaloha final 14-1-23\SanasAR\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="F:\zaloha final 14-1-23\SanasAR\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:F:\zaloha final 14-1-23\SanasAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:arcore_client:@aar,:UnityARCore:@aar,:ARPresto:@aar,:unityandroidpermissions:@aar">
+    <dependency
+        name="F:\zaloha final 14-1-23\SanasAR\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:F:\zaloha final 14-1-23\SanasAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":arcore_client:@aar"/>
+    <dependency
+        name=":UnityARCore:@aar"/>
+    <dependency
+        name=":ARPresto:@aar"/>
+    <dependency
+        name=":unityandroidpermissions:@aar"/>
+  </package>
+</dependencies>
